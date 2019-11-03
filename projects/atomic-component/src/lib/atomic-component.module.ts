@@ -9,9 +9,6 @@ import { SettingIconComponent } from "./svg/setting-icon/setting-icon.component"
 import { TypographyComponent } from "./components/typography/typography.component";
 import { BuildIconComponent } from "./svg/build/build-icon.component";
 import { DoneIconComponent } from "./svg/done/done-icon.component";
-import { ButtonComponent } from "./components/button/button.component";
-import { TextfieldComponent } from "./components/textfield/textfield.component";
-import { CardComponent } from "./components/card/card.component";
 
 @NgModule({
   declarations: [
@@ -23,10 +20,7 @@ import { CardComponent } from "./components/card/card.component";
     BuildIconComponent,
     DoneIconComponent,
     SettingIconComponent,
-    TypographyComponent,
-    ButtonComponent,
-    TextfieldComponent,
-    CardComponent
+    TypographyComponent
   ],
   imports: [CommonModule],
   exports: [
@@ -38,10 +32,7 @@ import { CardComponent } from "./components/card/card.component";
     BuildIconComponent,
     DoneIconComponent,
     SettingIconComponent,
-    TypographyComponent,
-    ButtonComponent,
-    TextfieldComponent,
-    CardComponent
+    TypographyComponent
   ]
 })
 export class AtomicComponentModule {}
